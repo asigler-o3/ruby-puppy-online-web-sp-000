@@ -6,7 +6,7 @@ class Dog
     @name = name
     @@all << self
     song = Dog.new 
-    song.save 
+    song.save
     song
   end
 
