@@ -8,7 +8,9 @@ class Dog
   end
 
   def initialize
-
+    dog = Dog.new
+    dog.save
+    dog
   end
 
   def self.all
