@@ -18,8 +18,4 @@ class Dog
   def self.print_all
     puts @@all.collect { |dog| dog.name }
   end
-
-  def save
-    self.class.all << self
-  end
 end
