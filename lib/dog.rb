@@ -7,12 +7,6 @@ class Dog
     @@all << self
   end
 
-  def initialize
-    dog = Dog.new
-    dog.save
-    dog
-  end
-
   def self.all
     @@all
   end
