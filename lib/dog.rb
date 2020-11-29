@@ -6,7 +6,7 @@ class Dog
     @name = name
     @@all << self
   end
-  
+
   def self.all
     @@all
   end
@@ -21,8 +21,8 @@ class Dog
 
   def save
     self.class.all << self
-    dog = Dog.new 
-    dog.save 
+    dog = Dog.new
+    dog.save
     dog
   end
 end
