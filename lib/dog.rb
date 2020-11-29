@@ -8,7 +8,7 @@ class Dog
   end
 
   def self.all
-    @@all.each {|dog| puts dog.name}
+    @@all
   end
 
   def self.clear_all
@@ -17,5 +17,9 @@ class Dog
 
   def self.print_all
     puts @@all.collect { |dog| dog.name }
+  end
+
+  def save
+    self.class.all << self
   end
 end
