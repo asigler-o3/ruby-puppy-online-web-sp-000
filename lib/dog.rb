@@ -7,6 +7,10 @@ class Dog
     @@all << self
   end
 
+  def initialize
+
+  end
+
   def self.all
     @@all
   end
